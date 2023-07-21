@@ -1,0 +1,23 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    width: 100%;
+    height: 500px;
+    background-image: url(./..//mi/mission-impossible-dead-reckoning--part-one-et00329481-1688284554.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    width: 50%;
+    height: 50px;
+    border: 1px solid black;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+    background-image: linear-gradient(90deg, rgba(26,26,26,0.2) 25%,rgb(26,26,26) 50%,rgba(26,26,26,0.2) 75%,rgb(26,26,26) 100% );
+}
+p,div{
+    color: aqua;
+}
