@@ -17,6 +17,7 @@
 }
 .nav1 .nav1-left{
       display: flex;
+      justify-content: space-between;
 }
 img{
     width: 100%;
