@@ -1,44 +1,119 @@
-*{
+* {
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
     font-family: "Space Grotesk", sans-serif;
 }
-body{
+
+body {
     width: 100%;
     background-color: black;
 }
-#navbar{
+
+#header {
     box-sizing: border-box;
     width: 100%;
     height: 110px;
     background-color: black;
     align-items: center;
-    padding: 20px 30px ;
+    padding: 20px 30px;
     display: flex;
     justify-content: space-between;
     font-family: "Space Grotesk", sans-serif;
     position: sticky;
     top: 0%;
     left: 0;
-    
+
 }
-#navbar a{
+
+#header .logo {
     color: white;
     text-decoration: none;
 }
-#navbar li{
+
+#header .logo1 {
+    display: none;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+}
+
+#navbar a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+#navbar li {
     display: inline;
     list-style: none;
     padding-left: 50px;
+
 }
-#navbar i{
-    padding-right: 15px;
-}
-#bar{
+
+#close {
     display: none;
 }
-#hero{
+
+#social {
+    margin-right: 0;
+}
+
+#social a {
+    color: white;
+    text-decoration: none;
+
+}
+
+#social i {
+    padding-left: 15px;
+}
+
+
+#bar {
+    display: none;
+}
+
+/*---------dropdw------------*/
+
+#navbar-dropdw {
+    display: none;
+
+}
+
+
+#nav {
+    display: none;
+}
+
+
+#nav li {
+    display: none;
+}
+
+#soc {
+    display: none;
+}
+
+#soc a {
+    display: none;
+
+}
+
+#soc i {
+    display: none;
+}
+
+
+
+
+#hero {
     width: 90%;
     height: 700px;
     /* border: 1px solid white; */
@@ -47,79 +122,91 @@ body{
     text-align: center;
     margin-bottom: 50px;
 }
-#hero img{
-    
-     width:108px;
-     padding-bottom: 27px;
+
+#hero img {
+
+    width: 108px;
+    padding-bottom: 27px;
 }
-#hero h1{
+
+#hero h1 {
     font-size: 70px;
     color: white;
     font-weight: 400;
     font-family: "Space Grotesk", sans-serif;
     padding-bottom: 20px;
 }
-#hero p{
+
+#hero p {
     color: white;
     line-height: 25px;
     padding-bottom: 50px;
 }
-#hero button{
+
+#hero button {
     width: 150px;
     height: 40px;
     border-radius: 20px;
     text-transform: capitalize;
     font-size: 18px;
     border: none;
-    
-    background-image: linear-gradient(99deg,rgb(150,150,150) 30%,rgb(200,200,200) 60%,rgb(200,200,200) 100%);
+
+    background-image: linear-gradient(99deg, rgb(150, 150, 150) 30%, rgb(200, 200, 200) 60%, rgb(200, 200, 200) 100%);
 }
-#hero-1{
+
+#hero-1 {
     width: 100%;
     height: 520px;
     border: 1px solid white;
     border: none;
     /* margin-left: 50px;
     margin: auto; */
+    margin-bottom: 100px;
     color: white;
     display: flex;
     justify-content: space-between;
-    
+
 }
-#hero-1 .dec{
+
+#hero-1 .dec {
     width: 25%;
     height: 100%;
     /* border: 1px solid white; */
     margin-left: 40px;
-    
+
 
 }
-#hero-1 h3{
+
+#hero-1 h3 {
     padding-bottom: 15px;
 }
-#hero-1 h1{
+
+#hero-1 h1 {
     font-size: 40px;
     font-weight: 100;
     letter-spacing: 2px;
     padding-bottom: 130px;
 }
-#hero-1 p{
+
+#hero-1 p {
     font-size: 18px;
     line-height: 25px;
     padding-bottom: 50px;
 
 }
-#hero-1 button{
+
+#hero-1 button {
     width: 150px;
     height: 40px;
     border-radius: 20px;
     text-transform: capitalize;
     font-size: 18px;
     border: none;
-    
-    background-image: linear-gradient(99deg,rgb(150,150,150) 30%,rgb(200,200,200) 60%,rgb(200,200,200) 100%);
+
+    background-image: linear-gradient(99deg, rgb(150, 150, 150) 30%, rgb(200, 200, 200) 60%, rgb(200, 200, 200) 100%);
 }
-#hero-1>div:nth-child(2){
+
+#hero-1>div:nth-child(2) {
     width: 65%;
     height: 100%;
     /* border: 1px solid white; */
@@ -127,7 +214,8 @@ body{
     display: flex;
     justify-content: space-between;
 }
-#hero-1>div:nth-child(2)>div:nth-child(1){
+
+#hero-1>div:nth-child(2)>div:nth-child(1) {
     width: 47%;
     height: 100%;
     padding-top: 50px;
@@ -136,7 +224,8 @@ body{
     background-image: url(https://mobirise.com/extensions/boldm5/tech-blog/assets/images/image6.jpg);
     background-size: cover;
 }
-#hero-1>div:nth-child(2)>div:nth-child(2){
+
+#hero-1>div:nth-child(2)>div:nth-child(2) {
     width: 47%;
     height: 100%;
     padding-top: 50px;
@@ -145,22 +234,25 @@ body{
     background-image: url(https://mobirise.com/extensions/boldm5/tech-blog/assets/images/image6.jpg);
     background-size: cover;
 }
-#hero-1>div:nth-child(2)>div:nth-child(1)>div{
+
+#hero-1>div:nth-child(2)>div:nth-child(1)>div {
     width: 80%;
     height: 85%;
     /* border: 1px solid white; */
     margin: auto;
     padding-top: 10%;
-    background-image: linear-gradient(99deg,rgb(150,150,150) 30%,rgb(200,200,200) 60%,rgb(200,200,200) 100%);
+    background-image: linear-gradient(99deg, rgb(150, 150, 150) 30%, rgb(200, 200, 200) 60%, rgb(200, 200, 200) 100%);
     opacity: 0;
     /* position: relative; */
     transition: 0.1s ease-in;
 }
-#hero-1>div:nth-child(2)>div:nth-child(1)>div:hover{
+
+#hero-1>div:nth-child(2)>div:nth-child(1)>div:hover {
     opacity: 1;
+    transform: translate(0, -10px);
 }
 
-#hero-1>div:nth-child(2)>div:nth-child(1)>div:nth-child(1)>div{
+#hero-1>div:nth-child(2)>div:nth-child(1)>div:nth-child(1)>div {
     width: 270px;
     height: 300px;
     /* border: 1px solid white; */
@@ -171,28 +263,32 @@ body{
     background-size: cover;
     background-position: top 10% right 5%;
 }
-#hero-1>div:nth-child(2)>div:nth-child(1)>div:nth-child(1)>div:nth-child(1)>div{
+
+#hero-1>div:nth-child(2)>div:nth-child(1)>div:nth-child(1)>div:nth-child(1)>div {
     text-align: center;
     padding-top: 150px;
-    
+
 
 }
-#hero-1>div:nth-child(2)>div:nth-child(2)>div{
+
+#hero-1>div:nth-child(2)>div:nth-child(2)>div {
     width: 80%;
     height: 85%;
     /* border: 1px solid white; */
     margin: auto;
     padding-top: 10%;
-    background-image: linear-gradient(99deg,rgb(150,150,150) 30%,rgb(200,200,200) 60%,rgb(200,200,200) 100%);
+    background-image: linear-gradient(99deg, rgb(150, 150, 150) 30%, rgb(200, 200, 200) 60%, rgb(200, 200, 200) 100%);
     opacity: 0;
     /* position: relative; */
     transition: 0.1s ease-in;
 }
-#hero-1>div:nth-child(2)>div:nth-child(2)>div:hover{
+
+#hero-1>div:nth-child(2)>div:nth-child(2)>div:hover {
     opacity: 1;
+    transform: translate(0, -10px);
 }
 
-#hero-1>div:nth-child(2)>div:nth-child(2)>div:nth-child(1)>div{
+#hero-1>div:nth-child(2)>div:nth-child(2)>div:nth-child(1)>div {
     width: 270px;
     height: 300px;
     /* border: 1px solid white; */
@@ -202,9 +298,1052 @@ body{
     background-size: cover;
     background-position: top 10% right 5%;
 }
-#hero-1>div:nth-child(2)>div:nth-child(2)>div:nth-child(1)>div:nth-child(1)>div{
+
+#hero-1>div:nth-child(2)>div:nth-child(2)>div:nth-child(1)>div:nth-child(1)>div {
     text-align: center;
     padding-top: 150px;
+
+
+}
+
+#para {
+    width: 100%;
+    height: 250px;
+    border: 1px solid white;
+    border: none;
+    color: white;
+    display: flex;
+    text-align: center;
+    /* justify-content: space-between; */
+    margin-bottom: 150px;
+}
+
+#para .br-1 {
+    height: 200px;
+    border: 1px solid gray;
+    margin-top: 25px;
+    margin-left: 50px;
+}
+
+#para .br-2 {
+    display: none;
+}
+
+#para h1 {
+    width: 40%;
+    height: 150px;
+    border: 1px solid white;
+    border: none;
+
+    margin-top: 90px;
+    margin-left: 150px;
+    letter-spacing: 2px;
+    font-size: 40px;
+    font-weight: 200;
+}
+
+#para p {
+    width: 35%;
+    height: 150px;
+    border: 1px solid white;
+    border: none;
+    margin-left: 50px;
+    font-size: 18px;
+    font-weight: 100;
+    margin-top: 90px;
+
+}
+
+#info {
+    width: 90%;
+    height: 250px;
+    /* border: 1px solid white; */
+    margin: auto;
+    margin-bottom: 150px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+
+}
+
+#info .web {
+    width: 15%;
+    height: 100%;
+    /* border: 1px solid white; */
+}
+
+#info .pic {
+    width: 82%;
+    height: 100%;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: space-between;
+}
+
+#info .pic>div {
+    width: 18.5%;
+    height: 100%;
+    /* border:1px solid white; */
+}
+
+#info .pic>div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+#info .pic>div button {
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    text-transform: capitalize;
+    font-size: 18px;
+    border: none;
+
+
+
+    opacity: 0;
+    transition: 0.02s ease-out;
+    transform: translateY(-10px);
+
+}
+
+#info .pic>div button:hover {
+    opacity: 1;
+    background-image: linear-gradient(99deg, rgb(150, 150, 150) 30%, rgb(200, 200, 200) 60%, rgb(200, 200, 200) 100%);
+}
+
+#about {
+    width: 100%;
+    height: 225px;
+    /* border: 1px solid white; */
+    margin-bottom: 150px;
+    color: white;
+    align-items: center;
+
+}
+
+#about>div:nth-child(1) {
+    align-items: center;
+    font-weight: 100;
+    /* padding-top: 60px; */
+    font-size: 80px;
+    padding-top: 10px;
+    width: 100%;
+    height: 112.5px;
+    border-top: 0.001px solid gray;
+    border-bottom: 0.001px solid gray;
+
+}
+
+#about>div:nth-child(2) {
+    font-weight: 100;
+    font-size: 80px;
+    padding-top: 10px;
+    align-items: center;
+    padding-left: 52%;
+    width: 100%;
+    height: 112.5px;
+    /* border-top: 0.001px solid  gray; */
+    border-bottom: 0.001px solid gray;
+
+}
+
+#prod {
+    width: 80%;
+    height: 450px;
+    /* border: 1px solid white; */
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 200px;
+}
+
+#prod .pr1 {
+    width: 31%;
+    height: 100%;
+    /* border: 1px solid white; */
+}
+
+#prod .pr1>div:nth-child(1) img {
+    width: 100%;
+    height: 350px;
+    /* border: 1px solid white; */
+    object-fit: cover;
+
+}
+
+#prod .pr1>div:nth-child(2) {
+    width: 100%;
+    height: 100px;
+    /* border: 1px solid white; */
+}
+
+#prod .pr1>div:nth-child(2) h3,
+h1 {
+    color: white;
+}
+
+#news {
+    width: 100%;
+    height: 500px;
+    /* border: 1px solid white; */
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#news .nw-p {
+    width: 40%;
+    height: 100%;
+    /* border: 1px solid white; */
+}
+
+#news .nw-1 {
+    width: 58%;
+    height: 100%;
+    /* border: 1px solid white; */
+    background-image: url(https://mobirise.com/extensions/boldm5/tech-blog/assets/images/image11.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#news .nw-1 button {
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    text-transform: capitalize;
+    font-size: 18px;
+    border: none;
+
+    background-image: linear-gradient(99deg, rgb(150, 150, 150) 30%, rgb(200, 200, 200) 60%, rgb(200, 200, 200) 100%);
+    opacity: 0;
+}
+
+#news .nw-1 button:hover {
+    opacity: 1;
+}
+
+#overflow {
+    width: 100%;
+    height: 600px;
+    /* border: 1px solid white; */
+    z-index: 0;
+    margin-bottom: 80px;
+
+
+
+}
+
+#bg-op {
+    width: 100%;
+    height: 600px;
+    /* border: 1px solid white; */
+    background-position: 50% 50%;
+    background-image: url("https://mobirise.com/extensions/boldm5/tech-blog/assets/images/background1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    /* background-image: linear-gradient(90deg,rgba(50,50,50,0.2) 30%,rgba(60,60,60,0.3) 60%,rgba(70,70,80,0.2)100%); */
+    opacity: 0.3;
+    backface-visibility: hidden;
+    z-index: -100;
+    overflow: hidden;
+}
+
+#overflow>div:nth-child(2) {
+    width: 40%;
+    height: 300px;
+    /* border: 1px solid white; */
+    padding-top: 200px;
+    margin-left: 80px;
+    z-index: -100;
+}
+
+#index {
+    width: 80%;
+    height: 1000px;
+    /* border: 1px solid white; */
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 150px;
+}
+
+#index>div:nth-child(1) {
+    width: 40%;
+    height: 100%;
+    /* border: 1px solid white; */
+    margin-top: 200px;
+}
+
+#container {
+    width: 50%;
+    height: 100%;
+    /* border: 1px solid white; */
+    overflow: hidden;
+}
+
+#prgm {
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid white; */
+    object-fit: cover;
+}
+
+#prgm img {
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid white; */
+}
+
+#res {
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid white; */
+    object-fit: cover;
+}
+
+#res img {
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid white; */
+}
+
+#dev {
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid white; */
+    object-fit: cover;
+}
+
+#dev img {
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid white; */
+}
+
+#pha {
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid white; */
+    object-fit: cover;
+}
+
+#pha img {
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid white; */
+}
+
+#des {
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid white; */
+    object-fit: cover;
+}
+
+#des img {
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid white; */
+}
+
+#feedbk {
+    width: 100%;
+    height: 600px;
+    /* border: 1px solid white; */
+    display: flex;
+    margin-bottom: 100px;
+}
+
+#feedbk>div:nth-child(1) {
+    width: 50%;
+    height: 100%;
+    /* border: 1px solid white; */
+    background-position: 50%;
+    background-image: url(https://mobirise.com/extensions/boldm5/tech-blog/assets/images/image13.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#feedbk>div:nth-child(1)>div {
+    width: 60%;
+    height: 60%;
+    /* border: 1px solid black; */
+    margin-top: 125px;
+    margin-left: 125px;
+    background-color: black;
+}
+
+#feedbk>div:nth-child(2) {
+    width: 50%;
+    height: 100%;
+    /* border: 1px solid white; */
+
+
+}
+
+#feedbk>div:nth-child(2) h1 {
+    margin-left: 100px;
+
+
+}
+
+#feedbk button {
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    text-transform: capitalize;
+    font-size: 18px;
+    border: none;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+#feedbk-1 {
+    width: 100%;
+    height: 600px;
+    /* border: 1px solid white; */
+    display: flex;
+    margin-bottom: 150px;
+}
+
+#feedbk-1>div:nth-child(1) {
+    width: 50%;
+    height: 100%;
+    /* border: 1px solid white; */
+    color: white;
+
+
+}
+
+#feedbk-1>div:nth-child(2) {
+    width: 50%;
+    height: 100%;
+    /* border: 1px solid white; */
+    background-position: 50%;
+    background-image: url(https://mobirise.com/extensions/boldm5/tech-blog/assets/images/image13.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#address {
+    width: 90%;
+    height: 160px;
+    /* border: 1px solid white; */
+    margin: auto;
+    display: flex;
+    margin-bottom: 100px;
+}
+
+#address div {
+    width: 25%;
+    height: 100%;
+    /* border: 1px solid white; */
+    color: white;
+}
+
+#address li {
+    list-style: none;
+    padding-bottom: 20px;
+
+}
+
+#address a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+/*-----------media-------*/
+
+
+
+@media (max-width:900px) {
+    #header .logo {
+        display: none;
+    }
+
+    #header .logo1 {
+        display: flex;
+        text-decoration: none;
+        color: white;
+    }
+
+    #navbar a {
+        display: none;
+    }
+
+    #social {
+        display: none;
+    }
+
+    #bar {
+        display: flex;
+    }
+
+    #bar a {
+        color: white;
+
+    }
+
+    /* #close{
+      
+    } */
+    /* #navbar-dropdw {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 350px;
+        border: 1px solid white;
+        position: fixed;
+       top: -350px;
+        
+
+    } */
+
+    #nav {
+        display: flex;
+        flex-direction: column;
+        /* align-items: flex-start; */
+        width: 100%;
+        height: 250px;
+        /* border: 1px solid white; */
+        position: relative;
+        position: fixed;
+        top: -250px;
+    }
+
+    #nav.active {
+        top: 110px;
+    }
+
+    #nav li {
+        display: flex;
+        color: white;
+    }
+
+    #nav li a {
+        display: flex;
+        padding-left: 50px;
+        padding-top: 20px;
+        color: white;
+        text-decoration: none;
+        position: relative;
+    }
+
+    #close {
+        display: flex;
+        color: white;
+        position: absolute;
+        top: 10px;
+        right: 32px;
+        font-size: 30px;
+
+    }
+
+    #soc {
+        display: flex;
+    }
+
+    #soc a {
+        display: flex;
+        color: white;
+        text-decoration: none;
+        border: 1pz solid white;
+        margin-left: 50px;
+        padding-top: 20px;
+        /* position: fixed; */
+
+    }
+
+    #soc i {
+        display: flex;
+    }
+
+
+    /*--------------hero-1------*/
+
+
+    #hero-1 {
+        width: 100%;
+        height: 720px;
+        border: 1px solid white;
+        border: none;
+        /* margin-left: 50px;
+    margin: auto; */
+        margin-bottom: 100px;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-between; */
+
+    }
+
+    #hero-1 .dec {
+        width: 95%;
+        height: 100%;
+        /* border: 1px solid white; */
+        margin: auto;
+
+
+    }
+
+    #hero-1 h3 {
+        padding-bottom: 15px;
+    }
+
+    #hero-1 h1 {
+        font-size: 40px;
+        font-weight: 100;
+        letter-spacing: 2px;
+        padding-bottom: 20px;
+    }
+
+    #hero-1 p {
+        font-size: 18px;
+        line-height: 25px;
+        padding-bottom: 20px;
+
+    }
+
+    #hero-1 button {
+        width: 150px;
+        height: 40px;
+        border-radius: 20px;
+        text-transform: capitalize;
+        font-size: 18px;
+        border: none;
+
+        background-image: linear-gradient(99deg, rgb(150, 150, 150) 30%, rgb(200, 200, 200) 60%, rgb(200, 200, 200) 100%);
+    }
+
+    #hero-1>div:nth-child(2) {
+        width: 95%;
+        height: 100%;
+        /* border: 1px solid white; */
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #hero-1>div:nth-child(2)>div:nth-child(1) {
+        width: 47%;
+        height: 100%;
+        padding-top: 50px;
+        border: 1px solid white;
+        border: none;
+        background-image: url(https://mobirise.com/extensions/boldm5/tech-blog/assets/images/image6.jpg);
+        background-size: cover;
+    }
+
+    #hero-1>div:nth-child(2)>div:nth-child(2) {
+        width: 47%;
+        height: 100%;
+        padding-top: 50px;
+        border: 1px solid white;
+        border: none;
+        background-image: url(https://mobirise.com/extensions/boldm5/tech-blog/assets/images/image6.jpg);
+        background-size: cover;
+    }
+
+    #hero-1>div:nth-child(2)>div:nth-child(1)>div {
+        width: 80%;
+        height: 85%;
+        /* border: 1px solid white; */
+        margin: auto;
+        padding-top: 10%;
+        background-image: linear-gradient(99deg, rgb(150, 150, 150) 30%, rgb(200, 200, 200) 60%, rgb(200, 200, 200) 100%);
+        opacity: 0;
+        /* position: relative; */
+        transition: 0.1s ease-in;
+    }
+
+    #hero-1>div:nth-child(2)>div:nth-child(1)>div:hover {
+        opacity: 1;
+        transform: translate(0, -10px);
+    }
+
+    #hero-1>div:nth-child(2)>div:nth-child(1)>div:nth-child(1)>div {
+        width: 270px;
+        height: 300px;
+        /* border: 1px solid white; */
+        margin: auto;
+        align-items: center;
+        /* padding-top: 70px; */
+        background-image: url(https://mobirise.com/extensions/boldm5/tech-blog/assets/images/image2.jpg);
+        background-size: cover;
+        background-position: top 10% right 5%;
+    }
+
+    #hero-1>div:nth-child(2)>div:nth-child(1)>div:nth-child(1)>div:nth-child(1)>div {
+        text-align: center;
+        padding-top: 150px;
+
+
+    }
+
+    #hero-1>div:nth-child(2)>div:nth-child(2)>div {
+        width: 80%;
+        height: 85%;
+        /* border: 1px solid white; */
+        margin: auto;
+        padding-top: 10%;
+        background-image: linear-gradient(99deg, rgb(150, 150, 150) 30%, rgb(200, 200, 200) 60%, rgb(200, 200, 200) 100%);
+        opacity: 0;
+        /* position: relative; */
+        transition: 0.1s ease-in;
+    }
+
+    #hero-1>div:nth-child(2)>div:nth-child(2)>div:hover {
+        opacity: 1;
+        transform: translate(0, -10px);
+    }
+
+    #hero-1>div:nth-child(2)>div:nth-child(2)>div:nth-child(1)>div {
+        width: 270px;
+        height: 300px;
+        /* border: 1px solid white; */
+        margin: auto;
+        /* margin-top: 70px; */
+        background-image: url(https://mobirise.com/extensions/boldm5/tech-blog/assets/images/image9.jpg);
+        background-size: cover;
+        background-position: top 10% right 5%;
+    }
+
+    #hero-1>div:nth-child(2)>div:nth-child(2)>div:nth-child(1)>div:nth-child(1)>div {
+        text-align: center;
+        padding-top: 150px;
+
+
+    }
+
+
+
+
+    /*------------para------*/
+
+    #para {
+        width: 100%;
+        height: 250px;
+        /* border: 1px solid white; */
+
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: left;
+
+        margin-bottom: 100px;
+    }
+
+    #para h1 {
+        width: 70%;
+        height: 100px;
+        /* border: 1px solid white; */
+
+
+        margin: auto;
+        margin-left: 7.5%;
+        letter-spacing: 4px;
+        font-size: 40px;
+        font-weight: 200;
+
+    }
+
+    #para .br-1 {
+        display: none;
+    }
+
+    #para .br-2 {
+        display: flex;
+        margin: auto;
+        width: 85%;
+        border: 0.003px solid grey;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+    #para p {
+        width: 85%;
+        height: 100px;
+        /* border: 1px solid white; */
+
+        margin-left: 7.5%;
+        margin: auto;
+        font-size: 18px;
+        font-weight: 100;
+        margin-bottom: 50px;
+
+
+    }
+
+
+    /*--------------info------*/
+
+    #info {
+        width: 95%;
+        height: 900px;
+        /* border: 1px solid white; */
+        margin: auto;
+        margin-bottom: 150px;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-between; */
+        color: white;
+
+    }
+
+    #info .web {
+        width: 100%;
+        height: 100px;
+        /* border: 1px solid white; */
+    }
+
+    #info .pic {
+        width: 100%;
+        height: 800px;
+        /* border: 1px solid white; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    #info .pic>div {
+        width: 49%;
+        height: 250px;
+        /* border:1px solid white; */
+        margin-bottom: 20px;
+    }
+
+    #info .pic>div img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+
+    }
+
+    #info .pic>div button {
+        width: 150px;
+        height: 40px;
+        border-radius: 20px;
+        text-transform: capitalize;
+        font-size: 18px;
+        border: none;
+
+
+
+        opacity: 0;
+        transition: 0.6s ease-out;
+        transform: translateY(-10px);
+
+    }
+
+    #info .pic>div button:hover {
+        opacity: 1;
+        background-image: linear-gradient(99deg, rgb(150, 150, 150) 30%, rgb(200, 200, 200) 60%, rgb(200, 200, 200) 100%);
+    }
+
+
+    #about {
+        width: 100%;
+        height: 200px;
+        /* border: 1px solid white; */
+        margin-bottom: 150px;
+        color: white;
+        align-items: center;
+
+    }
+
+    #about>div:nth-child(1) {
+        align-items: center;
+        font-weight: 100;
+        /* padding-top: 60px; */
+        font-size: 60px;
+        padding-top: 20px;
+        width: 100%;
+        height: 100px;
+        border-top: 0.001px solid gray;
+        border-bottom: 0.001px solid gray;
+
+    }
+
+    #about>div:nth-child(2) {
+        font-weight: 100;
+        font-size: 60px;
+        padding-top: 10px;
+        align-items: center;
+        padding-left: 45%;
+        width: 100%;
+        height: 100px;
+        /* border-top: 0.001px solid  gray; */
+        border-bottom: 0.001px solid gray;
+
+    }
+
+    #prod {
+        width: 80%;
+        height: 1000px;
+        /* border: 1px solid white; */
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-bottom: 150px;
+    }
+
+    #prod .pr1 {
+        width: 48%;
+        height: 450px;
+        /* border: 1px solid white; */
+        margin-bottom: 80px;
+    }
+
+    #prod .pr1>div:nth-child(1) img {
+        width: 100%;
+        height: 350px;
+        /* border: 1px solid white; */
+        object-fit: cover;
+
+    }
+
+    #prod .pr1>div:nth-child(2) {
+        width: 100%;
+        height: 100px;
+        /* border: 1px solid white; */
+    }
+
+    #prod .pr1>div:nth-child(2) h3,
+    h1 {
+        color: white;
+    }
+
+    #news {
+        width: 100%;
+        height: 900px;
+        /* border: 1px solid white; */
+        margin-bottom: 100px;
+        display: flex;
+        flex-wrap: wrap;
+        /* justify-content: space-between; */
+    }
+
+    #news .nw-p {
+        width: 80%;
+        height: 400px;
+        /* border: 1px solid white; */
+        text-align: center;
+        margin-left: 100px;
+    }
+
+    #news .nw-1 {
+        width: 100%;
+        height: 400px;
+
+        /* border: 1px solid white; */
+        background-image: url(https://mobirise.com/extensions/boldm5/tech-blog/assets/images/image11.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    #news .nw-1 button {
+        width: 150px;
+        height: 40px;
+        border-radius: 20px;
+        text-transform: capitalize;
+        font-size: 18px;
+        border: none;
+
+        background-image: linear-gradient(99deg, rgb(150, 150, 150) 30%, rgb(200, 200, 200) 60%, rgb(200, 200, 200) 100%);
+        opacity: 1;
+    }
+
     
+#index {
+    width: 80%;
+    height: 1000px;
+    /* border: 1px solid white; */
+    margin: auto;
+    display: flex;
+     flex-direction: column;
+    /* justify-content: space-between; */
+    margin-bottom: 150px;
+}
+
+#index>div:nth-child(1) {
+    width: 100%;
+    height: 50%;
+    /* border: 1px solid white; */
+    margin-top: 20px;
+}
+
+#container {
+    width: 100%;
+    height: 50%;
+    /* border: 1px solid white; */
+    overflow: hidden;
+    position: 50%;
+}
+
+
+#feedbk {
+    width: 100%;
+    height: 850px;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+
+#feedbk>div:nth-child(1) {
+    width: 100%;
+    height: 350px;
+    border: 1px solid white;
+    background-position: 50%;
+    background-image: url(https://mobirise.com/extensions/boldm5/tech-blog/assets/images/image13.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#feedbk>div:nth-child(1)>div {
+    width: 80%;
+    height: 250px;
+    /* border: 1px solid black; */
+    margin: auto;
+    background-color: black;
+    margin-top: 50px;
+   
+}
+
+#feedbk>div:nth-child(2) {
+    width: 80%;
+    height: 400px;
+    /* border: 1px solid white; */
+
+
+}
+
+#feedbk>div:nth-child(2) h1 {
+    margin-left: 100px;
+
+
+}
+
+#feedbk button {
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    text-transform: capitalize;
+    font-size: 18px;
+    border: none;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+
 
 }
