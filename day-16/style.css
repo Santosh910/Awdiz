@@ -687,8 +687,18 @@ h1 {
 
 #feedbk>div:nth-child(2) h1 {
     margin-left: 100px;
+    font-size: 80px;
+    font-weight: 100;margin-bottom: 50px;padding-top: 50px;
 
-
+}
+#feedbk>div:nth-child(2) h2{
+    font-size: 25px;padding-bottom: 150px;
+    color: white;
+    margin-left: 100px;
+}
+#feedbk>div:nth-child(2) p{
+    color: white;
+    padding-left: 100px;padding-right: 200px;font-size: 18px;
 }
 
 #feedbk button {
@@ -709,8 +719,14 @@ h1 {
     display: flex;
     margin-bottom: 150px;
 }
+#feedbk-1 .bg-dw2{
+    display: none;
+}
+#feedbk-1 .point2{
+    display: none;
+}
 
-#feedbk-1>div:nth-child(1) {
+#feedbk-1 .point{
     width: 50%;
     height: 100%;
     /* border: 1px solid white; */
@@ -719,7 +735,7 @@ h1 {
 
 }
 
-#feedbk-1>div:nth-child(2) {
+#feedbk-1 .bg-dw{
     width: 50%;
     height: 100%;
     /* border: 1px solid white; */
@@ -1112,6 +1128,9 @@ h1 {
         flex-wrap: wrap;
         justify-content: space-between;
     }
+    #info .if-1{
+        margin-left: 20%;
+    }
 
     #info .pic>div {
         width: 49%;
@@ -1192,6 +1211,7 @@ h1 {
         margin: auto;
         display: flex;
         flex-wrap: wrap;
+       
         justify-content: space-between;
         margin-bottom: 150px;
     }
@@ -1201,7 +1221,13 @@ h1 {
         height: 450px;
         /* border: 1px solid white; */
         margin-bottom: 80px;
+       
     }
+     #prod .pr2 {
+      
+       margin-left: 25%;
+    }
+   
 
     #prod .pr1>div:nth-child(1) img {
         width: 100%;
@@ -1293,16 +1319,16 @@ h1 {
 #feedbk {
     width: 100%;
     height: 850px;
-    border: 1px solid white;
+    /* border: 1px solid white; */
     display: flex;
     flex-direction: column;
-    margin-bottom: 100px;
+    margin-bottom: 10px;
 }
 
 #feedbk>div:nth-child(1) {
     width: 100%;
     height: 350px;
-    border: 1px solid white;
+    /* border: 1px solid white; */
     background-position: 50%;
     background-image: url(https://mobirise.com/extensions/boldm5/tech-blog/assets/images/image13.jpg);
     background-repeat: no-repeat;
@@ -1329,8 +1355,19 @@ h1 {
 
 #feedbk>div:nth-child(2) h1 {
     margin-left: 100px;
+    font-size: 80px;
+    font-weight: 100;margin-bottom: 30px;padding-top: 50px;
 
-
+}
+#feedbk>div:nth-child(2) h2{
+    font-size: 25px;padding-bottom: 50px;
+    color: white;
+    margin-left: 100px;
+}
+#feedbk>div:nth-child(2) p{
+    color: white;
+    padding-left: 100px;padding-right: 0px;
+    font-size: 18px;
 }
 
 #feedbk button {
@@ -1340,10 +1377,69 @@ h1 {
     text-transform: capitalize;
     font-size: 18px;
     border: none;
-    margin-top: 50px;
+    margin-top: 30px;
     margin-left: 100px;
 }
 
 
+#feedbk-1 {
+    width: 100%;
+    height: 850px;
+    /* border: 1px solid white; */
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 150px;
+}
+
+#feedbk-1 .point{
+    width: 100%;
+    height: 300px;
+    /* border: 1px solid white; */
+    margin-bottom: 150px;
+
+
+}
+
+#feedbk-1 .bg-dw{
+    width: 100%;
+    height: 400px;
+    /* border: 1px solid white; */
+    background-position: 50%;
+    background-image: url(https://mobirise.com/extensions/boldm5/tech-blog/assets/images/image13.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#address {
+    width: 90%;
+    height: 320px;
+    /* border: 1px solid white; */
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+   
+    margin-bottom: 100px;
+}
+
+#address div {
+    width: 50%;
+    height: 160px;
+    /* border: 1px solid white; */
+    color: white;
+    margin-bottom: 50px;
+}
+
+#address li {
+    list-style: none;
+    padding-bottom: 20px;
+
+}
+
+#address a {
+    text-decoration: none;
+    color: white;
+}
 
 }
