@@ -272,6 +272,261 @@ p {
     margin-top: 30px;
 }
 
+@media screen and (min-width: 901px) and (max-width: 1200px) {
+    #nav {
+        width: 100%;
+        height: 50px;
+        border: 1px solid black;
+        display: flex;
+
+    }
+
+    #list {
+        width: 500px;
+        height: 30px;
+        /* border: 1px solid black; */
+        margin: 10px 0px 10px 200px;
+    }
+
+    #hero {
+        width: 100%;
+        height: 300px;
+        background-color: #eee;
+        border: 1px solid #eee;
+        margin-bottom: 92px;
+    }
+
+    #hero .hr-1 {
+        width: 95%;
+        height: 100px;
+        /* border: 1px solid black; s*/
+        margin: auto;
+        background: transparent;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+        background-color: #eee;
+    }
+
+    #hero .hr-1 img {
+        width: 400px;
+        height: 60px;
+        border: 1px solid black;
+        margin-top: 40px;
+    }
+
+    #hero .hr-2 {
+        width: 95%;
+        height: 250px;
+        border: 1px solid black;
+        margin: auto;
+        background: transparent;
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        background-color: #eee;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+    }
+
+    #hero .hr-2 .hd {
+        width: 100%;
+        height: 60px;
+        /* border: 1px solid white; */
+        margin: auto;
+        background-color: black;
+        border-top-left-radius: 3px;
+        border-top-right-radius: 3px;
+        margin-bottom: 10px;
+    }
+
+    #hero .hr-2 .hd>div {
+        width: 90%;
+        height: 40px;
+        /* border: 1px solid white; */
+        background-color: black;
+        margin: auto;
+        padding-top: 20px;
+
+
+    }
+
+    #hero .hr-2 .hd ul {
+        display: flex;
+        background-color: black;
+
+    }
+
+    #hero .hr-2 li {
+        display: inline;
+        flex-wrap: wrap;
+        list-style: none;
+        padding-left: 40px;
+
+        background-color: black;
+    }
+
+    #hero .hr-2 li a {
+        font-size: 15px;
+        color: white;
+        background-color: black;
+        text-decoration: none;
+
+        text-transform: capitalize;
+    }
+
+    #freecss {
+        width: 95%;
+        height: 300px;
+        /* border: 1px solid black; */
+        margin: auto;
+
+    }
+
+    #freecss .fs {
+        width: 100%;
+        height: 20px;
+        /* border: 1px solid black; */
+        font-size: 12px;
+        margin-bottom: 30px;
+        background-color: gray;
+
+
+    }
+
+    #freecss ul {
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+    }
+
+    #freecss ul li {
+        width: 31%;
+        height: 200px;
+        border: 1px solid black;
+    }
+
+    #offer {
+        width: 95%;
+        height: 650px;
+        /* border: 1px solid black; */
+        margin: auto;
+    }
+
+    #offer .tag {
+        width: 100%;
+        height: 25px;
+        /* border: 1px solid black; */
+        background-color: #eee;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 50px;
+    }
+
+    #offer .comb {
+        width: 100%;
+        height: 500px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #offer .offer-list {
+        width: 60%;
+        height: 550px;
+        /* border: 1px solid black; */
+    }
+
+    #offer ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        list-style: none;
+    }
+
+    #offer ul li {
+        width: 48%;
+        height: 150px;
+        border: 1px solid black;
+        margin-bottom: 20px;
+
+
+    }
+
+    #offer ul li h3,
+    p {
+        padding-left: 10px;
+        padding-bottom: 10px;
+    }
+
+    #offer .adv {
+        width: 35%;
+        height: 300px;
+        border: 1px solid black;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+    }
+
+    #offer .adv>div:nth-child(1) {
+        width: 130px;
+        height: 130px;
+        border: 1px solid black;
+        /* margin-top: 330px; */
+        margin-bottom: 30px;
+    }
+
+    #offer .adv>div:nth-child(2) {
+        width: 130px;
+        height: 130px;
+        border: 1px solid black;
+        /* margin-top: 330px; */
+        margin-bottom: 20px;
+    }
+
+    #web {
+        width: 95%;
+        height: 250px;
+        /* border: 1px solid black; */
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    #web .wb-1 {
+        width: 100%;
+        height: 25px;
+        /* border: 1px solid black; */
+        background-color: #eee;
+        margin-bottom: 20px;
+    }
+
+    #web p {
+        font-size: 18px;
+    }
+
+    #cop {
+        width: 100%;
+        height: 80px;
+        /* border: 1px solid black; */
+        background-color: #eee;
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    #cop .hdr-1 {
+        margin-left: 20px;
+        background: transparent;
+        margin-top: 30px;
+    }
+
+    #cop .hdr-2 {
+        margin-right: 20px;
+        background: transparent;
+        margin-top: 30px;
+    }
+}
 
 
 @media screen and (min-width: 600px) and (max-width: 900px) {
@@ -927,7 +1182,7 @@ p {
 
     #hero .hr-2 .hd {
         width: 100%;
-        height: 60px;
+        height: 250px;
         /* border: 1px solid white; */
         margin: auto;
         background-color: black;
@@ -937,7 +1192,7 @@ p {
     }
 
     #hero .hr-2 .hd>div {
-        width: 90%;
+        width: 100%;
         height: 40px;
         /* border: 1px solid white; */
         background-color: black;
@@ -950,31 +1205,38 @@ p {
     #hero .hr-2 .hd ul {
         display: flex;
         flex-direction: column;
-        background-color: black;
+        /* background-color: gray; */
+        padding-top: 15px;
 
     }
 
     #hero .hr-2 li {
-        width: 100%;
-        height: 50px;
+        width: 90%;
+        height: 40px;
         /* border: 1px solid white; */
-       
-        
+        margin-bottom: 12px;
+        margin-left: 2.5%;
+        background-color: #444; 
+        text-align: center;
+        align-items: center;
         list-style: none;
+        
+        
     }
 
     #hero .hr-2 li a {
-        font-size: 15px;
+        font-size: 25px;
+       
         color: white;
-        background-color: gray;
+        background-color:#444;
         text-decoration: none;
-
+        
         text-transform: capitalize;
     }
 
     #freecss {
         width: 95%;
-        height: 300px;
+        height: 800px;
         /* border: 1px solid black; */
         margin: auto;
 
@@ -993,19 +1255,21 @@ p {
 
     #freecss ul {
         display: flex;
-        justify-content: space-between;
+        flex-direction: column;
         list-style: none;
     }
 
     #freecss ul li {
-        width: 31%;
+        width: 95%;
         height: 200px;
         border: 1px solid black;
+        margin: auto;
+        margin-bottom: 20px;
     }
 
     #offer {
         width: 95%;
-        height: 650px;
+        height: 1200px;
         /* border: 1px solid black; */
         margin: auto;
     }
@@ -1024,12 +1288,12 @@ p {
         width: 100%;
         height: 500px;
         display: flex;
-        justify-content: space-between;
+        flex-direction: column;
     }
 
     #offer .offer-list {
-        width: 60%;
-        height: 550px;
+        width: 95%;
+        height: 900px;
         /* border: 1px solid black; */
     }
 
@@ -1037,15 +1301,16 @@ p {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
-
+         
         list-style: none;
     }
 
     #offer ul li {
-        width: 48%;
-        height: 150px;
+        width: 95%;
+        height: 80px;
         border: 1px solid black;
         margin-bottom: 20px;
+    
 
 
     }
@@ -1058,10 +1323,11 @@ p {
     }
 
     #offer .adv {
-        width: 35%;
+        width: 95%;
         height: 300px;
         border: 1px solid black;
         display: flex;
+        margin: auto;
         flex-direction: column;
         /* justify-content: space-between; */
 
@@ -1088,7 +1354,7 @@ p {
         height: 250px;
         /* border: 1px solid black; */
         margin: auto;
-        margin-bottom: 50px;
+        margin-bottom: 80px;
     }
 
     #web .wb-1 {
@@ -1109,19 +1375,21 @@ p {
         /* border: 1px solid black; */
         background-color: #eee;
         display: flex;
-        justify-content: space-between;
+        flex-direction: column;
+        
 
     }
 
     #cop .hdr-1 {
         margin-left: 20px;
         background: transparent;
-        margin-top: 30px;
+       
     }
 
     #cop .hdr-2 {
-        margin-right: 20px;
+        margin-left: 50px;
         background: transparent;
-        margin-top: 30px;
+       
+      
     }
 }
