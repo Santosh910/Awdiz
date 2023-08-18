@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <input type="number" id="numberinput" placeholder="type the number....." />
+        <button onclick="printtable()">add</button>
+        <div id="toshowtable"></div>
+    </div>
+</body>
+<script src="script.js"></script>
+<script>
+    function printtable() {
+        var number = document.getElementById("numberinput").value;
+        var divToAppend = document.getElementById("toshowtable");
+
+
+        var structure = "";
+
+        for (var i = 1; i <= 10; i++) {
+            
+            var child = document.createElement("h1");
+
+            child.textContent = i / number;
+
+            divToAppend.appendChild(child);
+        }
+    }
+</script>
+
+</html>
