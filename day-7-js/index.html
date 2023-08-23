@@ -1,34 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
 </head>
+
 <body>
-    <form>
-        <label>Email</label><br/>
-        <input type="email" id="email" /><br/>
-        <label>Password</label><br/>
-        <input type="password" id="password"/><br/>
-        <input type="submit" id="register"/><br/>
+    <form onsubmit="submit(event)">
+        <label>Email</label><br />
+        <input type="email" id="email" /><br />
+        <label>Password</label><br />
+        <input type="password" id="password" /><br />
+        <input type="submit" id="register" /><br />
     </form>
     <button onclick="getData()">get data</button>
 
 
     <script>
-        function getData(){
+        function submit(event) {
+            event.preventDefault();
             var userEmail = document.getElementById('email').value;
             var userPassword = document.getElementById('password').value;
-            var userSubmit = document.getElementById('register').value;
 
-            const users = JSON.parse(localStorage.getItem("users"))
+            if (userEmail && userPassword) {
+                const userObject = { email: userEmail, password: userPassword }
+                alert("Register Succees..")
+                const users = JSON.parse(localStorage.getItem("users")) || [];
+
+                users.push(userObject)
+
+                localStorage.setItem("users", JSON.stringify(users))
+
+                document.getElementById("email").value = "";
+                document.getElementById("password").value = "";
+
+               
+
+            }
         }
-        function getData(){
+        function getData() {
             var users = JSON.parse(localStorage.getItem("users"));
             console.log(users);
         }
     </script>
 
 </body>
+
 </html>
