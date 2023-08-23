@@ -13,12 +13,14 @@
 
 //}
 
-var age = 88;
+var age = 17;
 console.log(age > 18)
 
 if (age > 18) {
+    document.write("you are older than 18")
     console.log("you are older than 18")
 } else {
+    document.write("you are smaller than 18")
     console.log("you are smaller than 18")
 }
 
@@ -48,10 +50,10 @@ console.log(13 > 6 && 15 > 10 && 5556 > 987)
 console.log(9 > 14 || 998 > 897 || 76 > 987)
 
 
-var age = 19;
+var age = 18;
 var had = false;
 
-// console.log(had)
+console.log(had)
 
 if (age >= 19 && age <= 80 && had == false) {
     console.log(`you are allowed for DL age -${age}`)
@@ -102,9 +104,9 @@ switch (name) {
 
 var num = 8765;// assign
 num = num +1;// re-assign
-num = num +1;
-num = num +1;
-num = num +1;
+num = num +1;// re-assign
+num = num +1;// re-assign
+num = num +1;// re-assign
 num++;
 num++;
 num++;

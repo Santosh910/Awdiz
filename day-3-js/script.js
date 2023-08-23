@@ -73,6 +73,18 @@ for (var i = 1; i <= 10; i++) {
 
 console.log(result);
 
+//find out addition of first 10 odd number
+
+var result = 0;
+
+for(var i=1;i <= 10;i++){
+    if(i % 2 != 0){
+        result = result + i;
+    }
+}
+
+console.log(result);
+
 
 
 // Q Find the Factorial..  1 * 2 * 3 *4 * 5 * 6 * 7 * 8 * 9 * 10 * 11 *  12

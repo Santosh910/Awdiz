@@ -61,10 +61,10 @@ console.log(myStudents.length)
 
 // Q Find out is "Om" present in given array or not ?
 var myStudents = ["Sagar", "Pratik", "Pranay", "Om","Swaraj","XYZ","abc"];
-// console.log(myStudents.length)
+console.log(myStudents.length)
 // console.log(myStudents[0])
 for(var i = 0; i < myStudents.length ; i++){
-    // console.log(myStudents[i])
+    console.log(myStudents[i])
     if(myStudents[i] == "Swaraj"){
         console.log("We got Swaraj & value is ->",myStudents[i], "and indec is " , i )
         break;
@@ -79,6 +79,15 @@ for(var i = 0; i < myStudent.length ; i++){
     // console.log(myStudents[i])
     if(myStudent[i] == "Pranay"){
         console.log("We got pranay & value is ->",myStudent[i], "and indec is " , i )
+        break;
+    }
+}
+
+var myStudents = ["Sagar", "Pratik", "Pranay", "Om","Swaraj","XYZ","abc"];
+
+for(var i = 0; i <= myStudents.length;i++){
+    if(myStudents[i] == "Om"){
+        console.log("we got om & value is ->",myStudents[i],"and indec is",i)
         break;
     }
 }

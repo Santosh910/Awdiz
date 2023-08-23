@@ -40,16 +40,16 @@ var myname = "santosh";
 var mysurname = "surve";
 var myage = "28";
 var incompletedassignment = false;
-var kuchbhi = "kuchbhi"
-var description = "my name is santosh im from mumbai im studing"
-console.log(myname)
+var kuchbhi = "kuchbhi";
+var description = "my name is santosh im from mumbai im studing";
 
-console.log(myage)
-console.log(description)
-console.log(mysurname)
-console.log(kuchbhi)
+console.log(myname);
+console.log(myage);
+console.log(description);
+console.log(mysurname);
+console.log(kuchbhi);
 
-console.log(incompletedassignment)
+console.log(incompletedassignment);
 
 
 var myname = "awdiz";
@@ -84,9 +84,9 @@ console.log(additionofthree)
 
 var myname ="xyz";
 
-// var message ="welcome to our website,Mr.${myname}";
+var message ="welcome to our website,Mr.${myname}";
 
 var newmessage = `welcome to our website Mr.${myname}`;
 
-// console.log(message)
+console.log(message)
 console.log(newmessage)
