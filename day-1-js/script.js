@@ -38,7 +38,7 @@
 
 var myname = "santosh";
 var mysurname = "surve";
-var myage = "28";
+var myage = 28;
 var incompletedassignment = false;
 var kuchbhi = "kuchbhi";
 var description = "my name is santosh im from mumbai im studing";

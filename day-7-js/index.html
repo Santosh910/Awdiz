@@ -15,35 +15,30 @@
         <input type="password" id="password" /><br />
         <input type="submit" id="register" /><br />
     </form>
-    <button onclick="getData()">get data</button>
+    <!-- <button onclick="getData()">get data</button> -->
 
 
     <script>
         function submit(event) {
             event.preventDefault();
-            var userEmail = document.getElementById('email').value;
-            var userPassword = document.getElementById('password').value;
+            const userEmail = document.getElementById('email').value;
+            const userPassword = document.getElementById('password').value;
 
             if (userEmail && userPassword) {
-                const userObject = { email: userEmail, password: userPassword }
-                alert("Register Succees..")
-                const users = JSON.parse(localStorage.getItem("users")) || [];
+                var users = JSON.parse(localStorage.getItem("users"));
+                console.log(users, "-users here")
 
-                users.push(userObject)
+                for()
+              
 
-                localStorage.setItem("users", JSON.stringify(users))
-
-                document.getElementById("email").value = "";
-                document.getElementById("password").value = "";
-
-               
+             }  
 
             }
-        }
-        function getData() {
-            var users = JSON.parse(localStorage.getItem("users"));
-            console.log(users);
-        }
+        
+        // function getData() {
+        //     var users = JSON.parse(localStorage.getItem("users"));
+        //     console.log(users);
+        // }
     </script>
 
 </body>
