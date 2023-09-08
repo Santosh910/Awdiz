@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+
+    <script>
+         // Question 1: Pattern Printing
+ // Create a program that prints the following pattern using asterisks (*) using for loops:
+ // Input - 5
+ // Output -
+ // *
+ // **
+ // ***
+ // ****
+ // *****
+   
+ var input = 5;
+
+ function printstar(number){
+
+    for(var i=0;i <=number;i++){
+        var pattern = ""
+        for(var j = 1;j<=i;j++){
+            pattern = pattern + "*"
+        }
+        console.log(pattern)
+    }
+
+    for(var i=number; <=number;i++){
+        var pattern = ""
+        for(var j = i;j<=1;j--){
+            pattern = pattern + "*"
+        }
+        console.log(pattern)
+    }
+ }
+console.log(printstar(input))
+
+    </script>
+</body>
+
+</html>

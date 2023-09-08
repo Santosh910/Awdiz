@@ -174,7 +174,15 @@ function find(array, target) {
 console.log(find(myArray, target))
 
 
-var myArray = [32, 34, 56, 67, 78, 34, 65, 52, 73, 23, 23, 23, 12];
+
 var myArray = [32, 34, 56, 67, 78, 34, 65, 52, 73, 23, 23, 23, 12];
 
 var target = 23;
+
+for(var i = 0;i <= myArray.length;i++ ){
+    for(var j = 1;j <=myArray.length;j++){
+        if(array[i] + array[j] == target){
+            console.log(array[i], "+",array[j],"=",target)
+        }
+    }
+}

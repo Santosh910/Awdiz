@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form onsubmit="addProduct(event)">
+        <label>Product Name</label><br />
+        <input type="text" placeholder="Type product name.." id="pname" /><br />
+        <label>Product Price</label><br />
+        <input type="number" placeholder="Type product price.." id="pprice" /><br />
+        <label>Product Image</label><br />
+        <input type="text" placeholder="Paste url of product image.." id="pimage" /><br />
+        <input type="checkbox" id="myCheck" />
+        <p>Accept terms and conditions.</p>
+        <input type="radio" value="Apple" name="myRadio"  /><label>Apple</label>
+        <input type="radio" value="Banana" name="myRadio" /><label>Banana</label>
+        <input type="radio" value="Grape" name="myRadio" /><label>Grape</label>
+        <br />
+        <input type="submit" value="Add Product" />
+
+    </form>
+    <script>
+       function addProduct(event){
+        event.preventDefault();
+        var name = document.getElementById("pname").value;
+        var price = document.getElementById("pprice").value;
+        var image = document.getElementById("pimage").value;
+       
+            var checkbox = document.getElementById("myCheck")
+
+            var radioForApple = document.getElementsByName("myRadio")
+            console.log(radioForApple[0].checked,"radio for apple")
+            
+            var radioForbanana = document.getElementsByName("myRadio")
+            console.log(radioForbanana[1].checked,"radio for banana")
+
+            var radioForgrape = document.getElementsByName("myRadio")
+            console.log(radioForgrape[2].checked,"radio for grape")
+
+
+
+            if(name && price && image && checkbox.checked ){
+                var productsArray =JSON.parse(localStorage.getItem("AllProducts")) || [];
+                productsArray.push({name,price,image})
+                localStorage.setItem("AllProducts",JSON.stringify(productsArray))
+                document.getElementById("pname").value = "";
+                document.getElementById("pprice").value = "";
+                
+                document.getElementById("pimage").value = "";
+                alert("product added successfullly.")
+                
+            }else{
+                alert("all fields are mandatory...")
+            }
+        
+       }
+    </script>
+</body>
+</html>

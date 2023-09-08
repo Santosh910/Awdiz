@@ -1,0 +1,198 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+#main {
+    width: 100%;
+    height: 645px;
+    /* border: 1px solid black; */
+    background: linear-gradient(120deg,
+            rgb(26, 26, 26) 24.97%,
+            rgb(26, 26, 26) 38.3%,
+            rgb(26, 26, 26) 97.47%,
+            rgb(26, 26, 26) 100%);
+}
+
+#bg {
+    margin: auto;
+    width: 92%;
+    height: 580px;
+    /* border: 2px solid black; */
+    /* background: url(./mission-impossible-dead-reckoning--part-one-et00329481-1688284554\ \(1\).webp); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right center;
+    padding: 32px 0px;
+    /* max-width: 1440px; */
+    /* box-shadow: 0px -200px 1000px black; */
+    background-image: linear-gradient(90deg, rgb(26, 26, 26) 24.97%, rgb(26, 26, 26) 38.3%, rgba(26, 26, 26, 0.04) 97.47%, rgb(26, 26, 26) 100%), url(./mission-impossible-dead-reckoning--part-one-et00329481-1688284554\ \(1\).webp);
+
+
+}
+
+#box {
+    width: 60%;
+    height: 105%;
+    /* border: 1px solid red; */
+    display: flex;
+}
+
+#box-left {
+    width: 35%;
+    height: 85%;
+    /* border: 1px solid white; */
+    margin-top: 30px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+#box-left img {
+    width: 100%;
+    height: 92%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.in {
+    width: 100%;
+    height: 7%;
+    color: white;
+    text-align: center;
+    margin: auto;
+    padding: 2%;
+}
+
+#box-right {
+    width: 60%;
+    height: 100%;
+    /* border: 1px solid white; */
+    margin-left: 5%;
+}
+
+.heading {
+    font-weight: bold;
+    color: white;
+    text-transform: capitalize;
+    font-size: 25px;
+}
+
+.vote {
+    display: flex;
+    color: white;
+    margin-top: 35px;
+    cursor: pointer;
+}
+
+.rate {
+    margin-top: 18px;
+    width: 100%;
+    height: 90px;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(51, 51, 51);
+    border-radius: 15px;
+    cursor: pointer;
+    
+
+}
+
+
+
+
+
+
+@media screen and (min-width: 800px) and (max-width: 1280px) {
+    #main {
+        width: 100%;
+        height: 645px;
+        /* border: 1px solid black; */
+
+    }
+
+    #bg {
+        margin: auto;
+        width: 92%;
+        height: 580px;
+        /* border: 2px solid black; */
+        /* background: url(./mission-impossible-dead-reckoning--part-one-et00329481-1688284554\ \(1\).webp); */
+        /* background-repeat: no-repeat;
+        background-size: cover;
+        background-position: right center;
+        padding: 32px 0px; */
+        /* max-width: 1440px; */
+        /* box-shadow: 0px -200px 1000px black; */
+        /* background-image: linear-gradient(90deg, rgb(26, 26, 26) 24.97%, rgb(26, 26, 26) 38.3%, rgba(26, 26, 26, 0.04) 97.47%, rgb(26, 26, 26) 100%), url(./mission-impossible-dead-reckoning--part-one-et00329481-1688284554\ \(1\).webp); */
+
+
+    }
+
+    #box {
+        width: 60%;
+        height: 105%;
+        /* border: 1px solid red; */
+        display: flex;
+    }
+
+    #box-left {
+        width: 35%;
+        height: 85%;
+        /* border: 1px solid white; */
+        margin-top: 30px;
+        background-color: black;
+        border-radius: 10px;
+    }
+
+    #box-left img {
+        width: 100%;
+        height: 92%;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+    .in {
+        width: 100%;
+        height: 7%;
+        color: white;
+        text-align: center;
+        margin: auto;
+        padding: 2%;
+    }
+
+    #box-right {
+        width: 60%;
+        height: 100%;
+        /* border: 1px solid white; */
+        margin-left: 5%;
+    }
+
+    .heading {
+        font-weight: bold;
+        color: white;
+        text-transform: capitalize;
+        font-size: 20px;
+    }
+
+    .vote {
+        display: flex;
+        color: white;
+        margin-top: 35px;
+        cursor: pointer;
+    }
+
+    .rate {
+        margin-top: 18px;
+        width: 100%;
+        height: 90px;
+        /* border: 1px solid white; */
+        display: flex;
+        justify-content: space-between;
+        background-color: rgb(51, 51, 51);
+        border-radius: 15px;
+        cursor: pointer;
+        
+    
+    }
+
+}

@@ -45,7 +45,7 @@
 
 // var numbers = [1,2,3,4,5,66,7,8,9,90];
 
-// var names = [a,b,c,d,e,f,g]
+// var names = [a,b,c,d,consoe,f,g]
 
 // var allDataTypes = [12,34,34.34, true, "sjknn", names ]
 

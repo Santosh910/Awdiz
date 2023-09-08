@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    var age = 19;
+    console.log(age >18)
+
+    if( age > 18){
+        document.write("you are older than 18","<br/>")
+    }else{
+        document.write("you are smaller than 18","<br/>")
+    }
+
+    console.log(13 >9 && 5 > 2)
+    console.log(5 >9 || 5 > 2)
+
+
+    var age = 19;
+    var had = false;
+
+    console.log(had)
+
+    if(age >= 19 && age <= 80 && had == false){
+        document.write(`you are allowed for DL age -${age}`)
+    }else if(age === 18 && !had){
+        document.write(`you are allow for ll-${age}`)
+    }else{
+        document.write(`you are not allow for dl.${age}`)
+    }
+
+    var name = "santosh";
+
+    switch(name){
+        case "santosh":
+            console.log(name)
+            break;
+        case "awdiz":
+            console.log(name)
+            break;
+        case "abc":
+            console.log(name)
+            break;
+        default:
+            console.log("not matched")
+    }
+
+
+    for(var i = 0;i<=10;i++){
+        document.write("<br/>"+i+"<br/>")
+    }
+
+    for(var j =10;j>0;j--){
+        document.write("<br/>"+j)
+    }
+</script>
+</html>
