@@ -14,11 +14,12 @@
 
 
 // for(var i = 1;i <= 10;i++){
-//     // if(i == 5){
-//     //     console.log(i,"-got 5") 
-//     //     break;
-//     // }
-// //    console.log(i) 
+
+    // if(i == 5){
+    //     console.log(i,"-got 5") 
+    //     break;
+    // }
+//    console.log(i) 
 // }
 
 
@@ -74,3 +75,21 @@
 //  }
 
 
+// find out all odd numbers from given array.
+// var array = [2,45, 65, 23, 65, 87, 123, 67, 87, 42, 4, 6, 78, 22 ]
+
+// for (var i= 0;i< array.length;i++){
+//     // console.log(array[i])
+//     if(array[i] % 2 != 0){
+//         console.log(array[i],"-odd nnumbers")
+//     }else{
+//         console.log(array[i],"-even number")
+//     }
+// }
+
+// var array = [2,45, 65, 23, 65, 87, 123, 67, 87, 42, 4, 6, 78, 22 ]
+
+function san(){
+    console.log("inside function")
+}
+san()
